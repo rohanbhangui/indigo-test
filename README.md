@@ -30,8 +30,7 @@ Your app is ready to be deployed!
 
 See the section about [deployment](https://facebook.github.io/create-react-app/docs/deployment) for more information.
 
-
-### Additional Notes
+## Additional Notes
 
 - I used react because it provided a quick scafholding that can quickly get an app like this upright
 - Used styled components for more dynamic styling cases that are required for this app (eg. the pop up and such)

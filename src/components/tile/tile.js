@@ -1,10 +1,12 @@
 import React from "react";
 import styled from "styled-components"
 
+// because of the varying sizes of the images I opted for an approach by which i could make them a square aspect ratio
 const Tile = ({item, onClick }) => {
+
+  // destructure the object into variables
   const { width, height, author, url, download_url } = item
 
-  
   return (
     <Container>
       <a href={url} onClick={onClick}>
