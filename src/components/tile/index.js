@@ -1,3 +1,3 @@
-import Tile from "tile"
+import Tile from "./tile"
 
-export Tile
+export default Tile
