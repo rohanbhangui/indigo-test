@@ -18,12 +18,14 @@ const App = () => {
   // for storing the url that the popup will redirect to
   const [redirect, setRedirect] = useState("")
 
+  // fetch the data and store it to a state var
   useEffect( () => {
     fetch('https://picsum.photos/v2/list')
     .then(response => response.json())
     .then(data => setItems(data))
   }, [])
 
+  // centralized the click event for the tiles to activate the popup
   const onTileClick = (e) => {
     if(!stopConfirm) {
       e.preventDefault()
@@ -32,6 +34,7 @@ const App = () => {
     }
   }
 
+  //used a class called "popover_target" to add functionality by which a user can click the darkened background and close popup
   return (
     <>
       <GlobalStyle />
@@ -86,6 +89,7 @@ const TileContainer = styled.div`
   }
 `
 
+// opted to use styled components for dynamic styling like this as opposed to toggling classes which are harder to track
 const PopUpOverlay = styled.div`
   background: rgba(0, 0, 0, 0.33);
   z-index: 1000;
