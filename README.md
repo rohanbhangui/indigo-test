@@ -6,7 +6,7 @@ This project was bootstrapped with [Create React App](https://github.com/faceboo
 
 To compile a codebase please run `npm install` in the root of the folder followed by `npm start`
 
-Alternatively, one can run `npm build` and run a server in the root of the compiled files.
+Alternatively, one can run `npm install && npm build` and run a server in the root of the compiled files
 
 ## Available Scripts
 
