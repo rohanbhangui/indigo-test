@@ -2,7 +2,7 @@ This project was bootstrapped with [Create React App](https://github.com/faceboo
 
 ## Prerequisites
 
-- installation of `node`
+- installation of `node` (used node version 12 to compile)
 
 To compile a codebase please run `npm install` in the root of the folder followed by `npm start`
 
